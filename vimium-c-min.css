@@ -1,4 +1,30 @@
 /* #ui */
+* {
+--color0: #282828;
+--color7: #ebdbb2;
+--color15: #fbf1c7;
+--fg: var(--color7);
+--bg: var(--color0);
+}
+
+.LH, .D>.LH {
+background: var(--fg);
+color: var(--bg);
+border-radius: 0;
+}
+
+.LH {
+border: 0;
+border-radius: 0;
+}
+
+.HUD.D:after, .HUD.D {
+background: var(--bg);
+color: var(--fg);
+border-radius: 0;
+border-color: var(--bg);
+}
+
 
 
 /* #omni */
@@ -32,6 +58,7 @@ margin: 0;
 padding: 0;
 border: 0rem solid var(--fg);
 }
+
 
 body::after {
 border-radius: 0;
@@ -103,6 +130,7 @@ color: var(--bg);
 
 .item:hover > .top {
 color: var(--bg);
+}
 
 a {
 color: var(--color8);
@@ -127,8 +155,27 @@ display: none;
 }
 
 
-/* #find */
 
+/* #find */
+* {
+--color0: #282828;
+--color7: #ebdbb2;
+--color15: #fbf1c7;
+--fg: var(--color7);
+--bg: var(--color0);
+}
+
+.r.D {
+background: transparent;
+color: var(--fg);
+box-shadow: none;
+}
+
+.r {
+border: 0;
+border-radius: 0;
+box-shadow: none;
+}
 
 /* #find:host */
 
