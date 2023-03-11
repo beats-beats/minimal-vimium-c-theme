@@ -181,3 +181,10 @@ box-shadow: none;
 
 
 /* #find:selection */
+* {
+--orange1: #d65d0e;
+}
+
+::selection { background: var(--orange1) !important; 
+}
+
